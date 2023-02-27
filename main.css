@@ -8,22 +8,33 @@ body {
     z-index:0;
 }
      
-  }
-  #section2 { 
-   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqbjPWvZW_cz3dB61Q010tHud20VOWzd0ZDWkv42onq4zIusvqdtcw4ugP);
-      background-size: cover;
-    background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center; 
-      height: 100vh; /* 100% of viewport height */
-      margin: 0 auto; 
-      position: relative; 
-  }
+#section2 { 
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqbjPWvZW_cz3dB61Q010tHud20VOWzd0ZDWkv42onq4zIusvqdtcw4ugP);
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh; /* 100% of viewport height */
+    margin: 0 auto; 
+    position: relative; 
+}
 
-  .landing > .heading1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    color: white;
-  }
+
+
+.landing > .heading1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.landing > .heading1 > h1 {
+  font-size: 
+}
