@@ -3,10 +3,15 @@ body {
     padding:none;
   }
   
-<<<<<<< HEAD
+@font-face {
+    font-family: Space Age;
+    src: url(space\ age.ttf);
+}
+
 .video {
     position:relative;
     z-index:0;
+    width: 100%
 }
      
 #section2 { 
@@ -38,26 +43,10 @@ body {
 
 .landing > .heading1 > h1 {
   font-size: 
-}
-=======
-  #main video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
 
-.info{
-position:absolute;
-    top: 600px;
-    width: 100%;
-    height: 600px;
-    padding: none;
-    
-    z-index: 2;
-    background-color: black;
-    color: white;
+  
 }
->>>>>>> a68e2035f25e65d2e6a410e2f874ac57675f6b57
+
+h1{
+  font-family: "Space Age", sans-serif;
+}
