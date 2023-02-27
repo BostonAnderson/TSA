@@ -3,15 +3,9 @@ body {
     padding:0;
   }
   
-  #section1 { 
-      background: url(media/space-galaxy-2022-01-18-20-14-57-utc_1.mp4);
-    background-size: cover;
-    background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center; 
-      height: 100vh; /* 100% of viewport height */
-      margin: 0 auto; 
-      position: relative; 
+.video {
+    
+}
      
   }
   #section2 { 
